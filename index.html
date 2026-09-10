@@ -220,6 +220,9 @@
         .review-card { width: 300px; flex-shrink: 0; }
         .star-fill { font-variation-settings: 'FILL' 1; color: #D4AF37; }
 
+        /* ---- Video grid cards ---- */
+        .video-card video { display: block; }
+
         @media (prefers-reduced-motion: reduce) {
             .hero-anim, .wa-float::before, .float-y { animation: none !important; opacity: 1 !important; }
             .hover-lift:hover { transform: none !important; }
@@ -244,7 +247,7 @@
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="services.html">Services</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="about-us.html">About</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="book-service.html">Book a Service</a>
-<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="index.html#gallery">Gallery</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="gallery.html">Gallery</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="contact.html">Contact</a>
 </div>
 <div class="flex items-center gap-3">
@@ -263,7 +266,7 @@
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="services.html">Services</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="about-us.html">About</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="book-service.html">Book a Service</a>
-<a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="index.html#gallery">Gallery</a>
+<a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="gallery.html">Gallery</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="contact.html">Contact</a>
 <a href="tel:+2348095902101" class="mt-2 w-full text-center px-6 py-3 border border-primary text-primary font-label-lg text-label-lg rounded-full">Call Now</a>
 </div>
@@ -623,12 +626,91 @@
 <h2 class="font-headline-lg text-headline-lg text-primary mt-2">A Look At Our Work</h2>
 </div>
 <div class="rounded-2xl overflow-hidden deep-float reveal">
-<video class="w-full max-h-[520px] object-cover bg-primary" controls preload="metadata" poster="assets/dosbo-tour-poster.jpg">
+<video class="w-full max-h-[520px] object-cover bg-primary" controls preload="metadata" poster="dosbo-tour-poster.jpg">
 <source src="dosbo-tour.mp4" type="video/mp4"/>
 Your browser does not support embedded video.
 </video>
 </div>
-<p class="text-center text-sm text-secondary mt-6 reveal">Photo gallery coming soon.</p>
+<p class="text-center text-sm text-secondary mt-6 reveal">Want more? See our full <a href="gallery.html" class="text-primary font-bold underline hover:text-luxury-gold">photo &amp; video gallery</a>.</p>
+</section>
+<!-- Moments With Our Clients -->
+<section class="bg-surface-container py-16 md:py-section-gap" id="moments">
+<div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center max-w-xl mx-auto mb-8 md:mb-12 reveal">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Behind The Scenes</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Moments With Our Clients</h2>
+<p class="text-secondary text-sm md:text-base mt-3">Real engagements, real handovers — a look at the people and projects behind DOSB'O Synergy.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-gutter reveal-stagger">
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="moment1.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Client Handover Day</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="moment2.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">On-Site With Clients</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="moment3.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Project Walkthrough</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="moment4.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Keys &amp; Move-In Day</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Importing & Exporting -->
+<section class="py-16 md:py-section-gap px-4 md:px-margin-desktop max-w-container-max mx-auto" id="import-export">
+<div class="text-center max-w-xl mx-auto mb-8 md:mb-12 reveal">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Trade In Motion</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Importing &amp; Exporting</h2>
+<p class="text-secondary text-sm md:text-base mt-3">From sourcing to customs clearance — see how we move goods in and out of Nigeria.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-gutter reveal-stagger">
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="i1.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Container Loading</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="i2.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Customs Clearance</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="i3.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Warehouse Intake</p>
+</div>
+<div class="video-card hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<video class="w-full h-52 md:h-56 object-cover bg-primary" controls preload="metadata">
+<source src="i4.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+<p class="p-3 md:p-4 font-bold text-primary text-sm">Export Documentation</p>
+</div>
+</div>
+</div>
 </section>
 <!-- Client Reviews -->
 <section class="py-16 md:py-section-gap" id="reviews">
@@ -976,7 +1058,7 @@ Your browser does not support embedded video.
 <nav class="flex flex-col gap-2">
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="about-us.html">About Us</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="index.html#reviews">Reviews</a>
-<a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="index.html#gallery">Gallery</a>
+<a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="gallery.html">Gallery</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="book-service.html">Book a Service</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="contact.html">Contact</a>
 </nav>
