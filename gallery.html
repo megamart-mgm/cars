@@ -273,10 +273,39 @@
 <section class="px-4 md:px-margin-desktop max-w-container-max mx-auto pt-10 md:pt-14 reveal">
 <div class="flex flex-wrap justify-center gap-2 md:gap-3" id="filter-tabs" role="tablist" aria-label="Filter gallery by category">
 <button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="all" aria-pressed="true">All</button>
+<button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="news" aria-pressed="false">In The News</button>
 <button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="featured" aria-pressed="false">Featured</button>
 <button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="clients" aria-pressed="false">Moments With Clients</button>
 <button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="trade" aria-pressed="false">Importing &amp; Exporting</button>
-<button type="button" class="filter-tab px-5 py-2.5 rounded-full font-bold text-sm border border-outline-variant/40" data-filter="news" aria-pressed="false">In The News</button>
+</div>
+</section>
+
+<!-- In The News -->
+<section class="py-10 md:py-16 px-4 md:px-margin-desktop max-w-container-max mx-auto gallery-item" data-category="news" id="in-the-news">
+<div class="text-center max-w-xl mx-auto mb-8 md:mb-12 reveal">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Honesty In Action</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">In The News</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-10 items-center reveal">
+<div class="rounded-2xl overflow-hidden deep-float border border-outline-variant/30">
+<video class="w-full h-auto object-cover bg-primary" controls preload="metadata">
+<source src="v1.mp4" type="video/mp4"/>
+Your browser does not support embedded video.
+</video>
+</div>
+<div class="space-y-4 md:space-y-6">
+<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide">Driver Story</p>
+<h3 class="font-headline-md text-headline-md text-primary text-xl md:text-2xl">Lost Wallet, Returned In Full</h3>
+<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
+                        During a trip in Lagos, one of our drivers found a wallet left behind by a passenger — cash, cards, and all. Rather than keep it, he tracked the passenger down and handed it back untouched.
+                    </p>
+<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
+                        The passenger, visibly moved by the gesture, rewarded him with $200 on the spot — and the story went on to be picked up and shared as a feel-good moment online.
+                    </p>
+<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
+                        It's a small moment, but it says a lot about the people behind DOSB'O Synergy: the same integrity we bring to a build site, a shipment, or a leased apartment is the same integrity our drivers carry on the road.
+                    </p>
+</div>
 </div>
 </section>
 
@@ -374,32 +403,6 @@ Your browser does not support embedded video.
 </div>
 </section>
 
-<!-- In The News -->
-<section class="py-16 md:py-section-gap px-4 md:px-margin-desktop max-w-container-max mx-auto gallery-item" data-category="news" id="in-the-news">
-<div class="text-center max-w-xl mx-auto mb-8 md:mb-12 reveal">
-<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Honesty In Action</span>
-<h2 class="font-headline-lg text-headline-lg text-primary mt-2">In The News</h2>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-10 items-center reveal">
-<div class="rounded-2xl overflow-hidden deep-float border border-outline-variant/30">
-<img src="news.jpg" alt="News coverage: driver rewarded for returning a lost wallet" class="w-full h-auto object-cover"/>
-</div>
-<div class="space-y-4 md:space-y-6">
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide">Driver Story</p>
-<h3 class="font-headline-md text-headline-md text-primary text-xl md:text-2xl">Lost Wallet, Returned In Full</h3>
-<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
-                        During a trip in Lagos, one of our drivers found a wallet left behind by a passenger — cash, cards, and all. Rather than keep it, he tracked the passenger down and handed it back untouched.
-                    </p>
-<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
-                        The passenger, visibly moved by the gesture, rewarded him with $200 on the spot — and the story went on to be picked up and shared as a feel-good moment online.
-                    </p>
-<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
-                        It's a small moment, but it says a lot about the people behind DOSB'O Synergy: the same integrity we bring to a build site, a shipment, or a leased apartment is the same integrity our drivers carry on the road.
-                    </p>
-</div>
-</div>
-</section>
-
 <!-- CTA -->
 <section class="relative py-16 md:py-24 overflow-hidden">
 <div class="absolute inset-0 z-0 bg-primary"></div>
@@ -458,11 +461,11 @@ Your browser does not support embedded video.
 </div>
 </div>
 <div class="max-w-container-max mx-auto px-4 md:px-margin-desktop mt-10 md:mt-16 pt-8 border-t border-white/10 text-center">
-<p class="text-on-primary-fixed-variant font-label-sm text-label-sm opacity-60">© 2026 DOSB'O SYNERGY LIMITED · RN 6992198. All Rights Reserved.</p>
+<p class="text-on-primary-fixed-variant font-label-sm text-label-sm opacity-60">© 2026 DOSB'O SYNERGY LIMITED · RN 6992198. All Rights Reserved. · Built by <a href="https://nigeria-developer.vercel.app/" target="_blank" rel="noopener" class="text-luxury-gold hover:underline">Mega Grace</a></p>
 </div>
 </footer>
 <!-- Floating WhatsApp Button -->
-<a class="wa-float float-y fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[60] bg-[#25D366] text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all" href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+<a class="wa-float float-y fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[60] bg-[#25D366] text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all" href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" id="wa-float-btn">
 <span class="material-symbols-outlined text-[28px] md:text-[32px]">chat</span>
 </a>
 
@@ -519,5 +522,17 @@ Your browser does not support embedded video.
             });
         });
     });
+
+    /* ---- Hide floating WhatsApp button when the footer scrolls into view ---- */
+    const waBtn = document.getElementById('wa-float-btn');
+    const footerEl = document.querySelector('footer');
+    if (waBtn && footerEl) {
+        const footerObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                waBtn.classList.toggle('hide-on-footer', entry.isIntersecting);
+            });
+        }, { threshold: 0.05 });
+        footerObserver.observe(footerEl);
+    }
 </script>
 </body></html>
