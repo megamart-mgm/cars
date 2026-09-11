@@ -2,23 +2,23 @@
 <html class="scroll-smooth" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>DOSB'O Synergy Limited | General Contracting, Logistics, Import & Export, Apartment Leasing & Airbnb in Lagos, Nigeria</title>
-<meta name="description" content="DOSB'O Synergy Limited (RN: 6992198) — General Contracting, Logistics, Import & Export, Apartment Leasing and Airbnb management in Lagos, Nigeria."/>
+<title>DOSB'O Synergy Limited | General Contracting, Logistics, Import & Export, Vehicle Hire, Apartment Leasing & Airbnb in Lagos, Nigeria</title>
+<meta name="description" content="DOSB'O Synergy Limited (RN: 6992198) — General Contracting, Logistics, Import & Export, Vehicle Hire & Transportation, Apartment Leasing and Airbnb management in Lagos, Nigeria."/>
 <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 <link rel="icon" type="image/jpeg" href="logo.jpg"/>
 <link rel="apple-touch-icon" href="logo.jpg"/>
 <meta name="theme-color" content="#000d22"/>
-<meta name="keywords" content="general contracting Lagos, construction company Nigeria, logistics company Lagos, freight and haulage Nigeria, import export Nigeria, customs clearance Lagos, warehousing Nigeria, apartment leasing Lagos, Airbnb management Lagos, short let apartments Lagos, DOSB'O Synergy Limited, DOSBO Synergy, RN 6992198"/>
+<meta name="keywords" content="general contracting Lagos, construction company Nigeria, logistics company Lagos, freight and haulage Nigeria, import export Nigeria, customs clearance Lagos, warehousing Nigeria, vehicle hire Lagos, car rental Lagos, chauffeur hire Nigeria, apartment leasing Lagos, Airbnb management Lagos, short let apartments Lagos, DOSB'O Synergy Limited, DOSBO Synergy, RN 6992198"/>
 <meta name="robots" content="index, follow"/>
 <meta name="author" content="DOSB'O Synergy Limited"/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="DOSB'O Synergy Limited"/>
-<meta property="og:title" content="DOSB'O Synergy Limited | Contracting, Logistics, Import & Export, Apartment Leasing & Airbnb"/>
-<meta property="og:description" content="Lagos-based DOSB'O Synergy Limited (RN: 6992198) delivers General Contracting, Logistics, Import & Export, and Apartment Leasing & Airbnb management — trusted, transparent, and dependable."/>
+<meta property="og:title" content="DOSB'O Synergy Limited | Contracting, Logistics, Import & Export, Vehicle Hire, Apartment Leasing & Airbnb"/>
+<meta property="og:description" content="Lagos-based DOSB'O Synergy Limited (RN: 6992198) delivers General Contracting, Logistics, Import & Export, Vehicle Hire & Transportation, and Apartment Leasing & Airbnb management — trusted, transparent, and dependable."/>
 <meta property="og:image" content="logo.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="DOSB'O Synergy Limited | Contracting, Logistics, Import & Export, Apartment Leasing & Airbnb"/>
-<meta name="twitter:description" content="Lagos-based multi-sector company: General Contracting, Logistics, Import & Export, Apartment Leasing & Airbnb management. RN: 6992198."/>
+<meta name="twitter:title" content="DOSB'O Synergy Limited | Contracting, Logistics, Import & Export, Vehicle Hire, Apartment Leasing & Airbnb"/>
+<meta name="twitter:description" content="Lagos-based multi-sector company: General Contracting, Logistics, Import & Export, Vehicle Hire & Transportation, Apartment Leasing & Airbnb management. RN: 6992198."/>
 <meta name="twitter:image" content="logo.jpg"/>
 <script type="application/ld+json">
 {
@@ -26,7 +26,7 @@
   "@type": "LocalBusiness",
   "name": "DOSB'O Synergy Limited",
   "image": "logo.jpg",
-  "description": "General Contracting, Logistics, Import & Export, and Apartment Leasing & Airbnb management in Lagos, Nigeria.",
+  "description": "General Contracting, Logistics, Import & Export, Vehicle Hire & Transportation, and Apartment Leasing & Airbnb management in Lagos, Nigeria.",
   "telephone": "+2348095902101",
   "email": "dosbosynergy@gmail.com",
   "address": {
@@ -161,13 +161,15 @@
         .reveal-stagger.in-view > *:nth-child(4){transition-delay:.26s}
         .reveal-stagger.in-view > *:nth-child(5){transition-delay:.33s}
         .reveal-stagger.in-view > *:nth-child(6){transition-delay:.4s}
+        .reveal-stagger.in-view > *:nth-child(7){transition-delay:.47s}
+        .reveal-stagger.in-view > *:nth-child(8){transition-delay:.54s}
         @media (prefers-reduced-motion: reduce) {
             .reveal, .reveal-stagger > * { opacity:1 !important; transform:none !important; transition:none !important; }
         }
 
         /* ---- Mobile menu ---- */
         #mobile-menu { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
-        #mobile-menu.open { max-height: 460px; }
+        #mobile-menu.open { max-height: 560px; }
         #menu-toggle.open .line-1 { transform: translateY(7px) rotate(45deg); }
         #menu-toggle.open .line-2 { opacity: 0; }
         #menu-toggle.open .line-3 { transform: translateY(-7px) rotate(-45deg); }
@@ -210,24 +212,19 @@
         .hover-lift { transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s ease; }
         .hover-lift:hover { transform: translateY(-6px); }
 
-        /* ---- Reviews marquee ---- */
-        @keyframes marquee-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-        @keyframes marquee-right { from { transform: translateX(-50%); } to { transform: translateX(0); } }
-        .marquee-row { overflow: hidden; -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent); mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent); }
-        .marquee-track { display: flex; width: max-content; gap: 1.25rem; animation: marquee-left 58s linear infinite; }
-        .marquee-track.marquee-reverse { animation-name: marquee-right; animation-duration: 66s; }
-        .marquee-row:hover .marquee-track, .marquee-row:focus-within .marquee-track { animation-play-state: paused; }
-        .review-card { width: 300px; flex-shrink: 0; }
+        /* ---- Reviews grid ---- */
         .star-fill { font-variation-settings: 'FILL' 1; color: #D4AF37; }
 
         /* ---- Video grid cards ---- */
         .video-card video { display: block; }
 
+        /* ---- Service area chip ---- */
+        .area-chip { transition: background-color .25s ease, color .25s ease, transform .25s ease; }
+        .area-chip:hover { transform: translateY(-2px); }
+
         @media (prefers-reduced-motion: reduce) {
             .hero-anim, .wa-float::before, .float-y { animation: none !important; opacity: 1 !important; }
             .hover-lift:hover { transform: none !important; }
-            .marquee-track { animation: none !important; }
-            .marquee-row { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
         }
 </style>
 </head>
@@ -245,6 +242,7 @@
 <div class="hidden md:flex gap-8 items-center">
 <a class="text-tertiary-container font-bold border-b-2 border-tertiary-container font-label-lg text-label-lg py-1" href="index.html#home">Home</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="services.html">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="index.html#fleet">Fleet</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="about-us.html">About</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="book-service.html">Book a Service</a>
 <a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg" href="gallery.html">Gallery</a>
@@ -264,6 +262,7 @@
 <div class="flex flex-col py-4 gap-1">
 <a class="py-3 px-2 rounded-lg font-bold text-primary bg-surface-container-low font-label-lg text-label-lg" href="index.html#home">Home</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="services.html">Services</a>
+<a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="index.html#fleet">Fleet</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="about-us.html">About</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="book-service.html">Book a Service</a>
 <a class="py-3 px-2 rounded-lg text-on-surface-variant font-label-lg text-label-lg" href="gallery.html">Gallery</a>
@@ -280,15 +279,19 @@
 </div>
 <div class="relative z-10 px-4 md:px-margin-desktop max-w-container-max mx-auto w-full">
 <div class="max-w-2xl text-white">
-<span class="hero-anim hero-anim-delay-1 inline-block px-3 py-1 rounded-full border border-luxury-gold/50 text-luxury-gold text-[11px] font-bold tracking-[0.15em] mb-4">FOUR SECTORS. ONE SYNERGY.</span>
+<span class="hero-anim hero-anim-delay-1 inline-block px-3 py-1 rounded-full border border-luxury-gold/50 text-luxury-gold text-[11px] font-bold tracking-[0.15em] mb-4">FIVE SECTORS. ONE SYNERGY.</span>
 <h1 class="hero-anim hero-anim-delay-2 font-display-lg text-display-lg md:text-display-lg text-headline-lg-mobile mb-4 md:mb-6">General Contracting, Logistics &amp; Trade — Done Right</h1>
 <p class="hero-anim hero-anim-delay-3 font-body-lg text-body-lg mb-6 md:mb-10 text-white/80">
-                    DOSB'O SYNERGY LIMITED delivers dependable General Contracting, Logistics, Import &amp; Export, and Apartment Leasing &amp; Airbnb management — built on trust, precision, and direct communication.
+                    DOSB'O SYNERGY LIMITED delivers dependable General Contracting, Logistics, Import &amp; Export, Vehicle Hire &amp; Transportation, and Apartment Leasing &amp; Airbnb management — built on trust, precision, and direct communication.
                 </p>
 <div class="hero-anim hero-anim-delay-4 flex flex-wrap gap-3 md:gap-4">
 <a class="px-6 md:px-8 py-3 md:py-4 bg-white text-primary font-bold rounded-xl flex items-center gap-2 hover:bg-luxury-gold hover:scale-105 transition-all text-sm md:text-base" href="services.html">
                         Explore Our Services
                         <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="px-6 md:px-8 py-3 md:py-4 bg-luxury-gold text-primary font-bold rounded-xl flex items-center gap-2 hover:bg-white hover:scale-105 transition-all text-sm md:text-base" href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I'd%20like%20to%20book%20a%20vehicle." target="_blank" rel="noopener">
+                        <span class="material-symbols-outlined">directions_car</span>
+                        Book a Vehicle
 </a>
 <a class="px-6 md:px-8 py-3 md:py-4 border border-white/40 backdrop-blur-sm text-white font-bold rounded-xl hover:bg-white/10 transition-colors text-sm md:text-base" href="contact.html">
                         Contact Us
@@ -308,6 +311,7 @@
 <option>General Contracting</option>
 <option>Logistics</option>
 <option>Import &amp; Export</option>
+<option>Vehicle Hire &amp; Transportation</option>
 <option>Apartment Leasing / Airbnb</option>
 </select>
 </div>
@@ -388,14 +392,14 @@
 <span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Who We Are</span>
 <h2 class="font-headline-lg text-headline-lg text-primary">About DOSB'O SYNERGY LIMITED</h2>
 <p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
-                    DOSB'O Synergy Limited (RN: 6992198) is a Lagos-based multi-sector company bringing together General Contracting, Logistics, Import &amp; Export, and Apartment Leasing &amp; Airbnb management under one dependable name.
+                    DOSB'O Synergy Limited (RN: 6992198) is a Lagos-based multi-sector company bringing together General Contracting, Logistics, Import &amp; Export, Vehicle Hire &amp; Transportation, and Apartment Leasing &amp; Airbnb management under one dependable name.
                 </p>
 <p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
-                    Whatever the job — a build, a shipment, a trade order, or a guest's stay — we bring the same discipline, transparency, and direct communication to every engagement.
+                    Whatever the job — a build, a shipment, a trade order, a vehicle for the day, or a guest's stay — we bring the same discipline, transparency, and direct communication to every engagement.
                 </p>
 <div class="flex gap-6 md:gap-10 pt-4">
 <div>
-<span class="block text-2xl md:text-3xl font-bold text-primary">4</span>
+<span class="block text-2xl md:text-3xl font-bold text-primary">5</span>
 <span class="text-label-sm font-label-sm text-secondary">Core Sectors</span>
 </div>
 <div>
@@ -414,8 +418,30 @@
 </div>
 </div>
 </section>
+<!-- Meet the Founder -->
+<section class="bg-surface-container py-16 md:py-section-gap" id="founder">
+<div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 items-center">
+<div class="reveal flex justify-center md:justify-start">
+<!-- PLACEHOLDER: swap this initials avatar for the founder's real photo -->
+<div class="w-40 h-40 md:w-48 md:h-48 rounded-2xl bg-primary flex items-center justify-center shadow-xl border-4 border-luxury-gold/30 shrink-0">
+<span class="font-display-lg text-luxury-gold text-5xl md:text-6xl font-bold">HD</span>
+</div>
+</div>
+<div class="md:col-span-2 space-y-3 md:space-y-4 reveal">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Leadership</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Meet the Founder</h2>
+<p class="text-on-surface-variant font-body-lg text-body-lg leading-relaxed">
+                    <!-- PLACEHOLDER: replace with the founder's real bio -->
+                    Hammed Abioye Dosunmu founded DOSB'O Synergy Limited to bring one accountable, direct point of contact to four demanding sectors — contracting, logistics, trade, and hospitality. His hands-on approach shapes how every client engagement is run, from first enquiry to final handover.
+                </p>
+<p class="font-bold text-primary">Hammed Abioye Dosunmu <span class="font-normal text-secondary">· Founder &amp; CEO, DOSB'O Synergy Limited</span></p>
+</div>
+</div>
+</div>
+</section>
 <!-- Why Choose Us (Bento Grid) -->
-<section class="bg-surface-container py-16 md:py-section-gap">
+<section class="py-16 md:py-section-gap">
 <div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
 <div class="text-center mb-10 md:mb-16 space-y-3 md:space-y-4 reveal">
 <h2 class="font-headline-lg text-headline-lg text-primary">Why Choose Us</h2>
@@ -485,17 +511,16 @@
 <section class="py-16 md:py-section-gap px-4 md:px-margin-desktop max-w-container-max mx-auto" id="services">
 <div class="flex justify-between items-end mb-8 md:mb-12 reveal">
 <div class="space-y-1 md:space-y-2">
-<h2 class="font-headline-lg text-headline-lg text-primary">Our Four Pillars</h2>
-<p class="text-secondary text-sm md:text-base">One team, four dependable service lines.</p>
+<h2 class="font-headline-lg text-headline-lg text-primary">Our Five Pillars</h2>
+<p class="text-secondary text-sm md:text-base">One team, five dependable service lines.</p>
 </div>
 <a class="text-primary font-bold border-b-2 border-primary hover:text-luxury-gold hover:border-luxury-gold transition-all text-sm md:text-base whitespace-nowrap" href="services.html">See All Services</a>
 </div>
-<div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-gutter reveal-stagger">
+<div class="grid grid-cols-2 lg:grid-cols-5 gap-3 md:gap-gutter reveal-stagger">
 <!-- Card 1 -->
 <div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float group">
 <div class="h-24 md:h-40 relative overflow-hidden bg-primary flex items-center justify-center">
 <span class="material-symbols-outlined text-luxury-gold text-4xl md:text-6xl">engineering</span>
-<div class="absolute top-2 right-2 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-[10px] font-bold text-primary">01</div>
 </div>
 <div class="p-3 md:p-6">
 <h3 class="font-headline-md text-headline-md text-primary mb-1 md:mb-3 text-sm md:text-xl leading-snug">General Contracting</h3>
@@ -507,7 +532,6 @@
 <div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float group">
 <div class="h-24 md:h-40 relative overflow-hidden bg-primary flex items-center justify-center">
 <span class="material-symbols-outlined text-luxury-gold text-4xl md:text-6xl">local_shipping</span>
-<div class="absolute top-2 right-2 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-[10px] font-bold text-primary">02</div>
 </div>
 <div class="p-3 md:p-6">
 <h3 class="font-headline-md text-headline-md text-primary mb-1 md:mb-3 text-sm md:text-xl leading-snug">Logistics</h3>
@@ -519,7 +543,6 @@
 <div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float group">
 <div class="h-24 md:h-40 relative overflow-hidden bg-primary flex items-center justify-center">
 <span class="material-symbols-outlined text-luxury-gold text-4xl md:text-6xl">directions_boat</span>
-<div class="absolute top-2 right-2 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-[10px] font-bold text-primary">03</div>
 </div>
 <div class="p-3 md:p-6">
 <h3 class="font-headline-md text-headline-md text-primary mb-1 md:mb-3 text-sm md:text-xl leading-snug">Import &amp; Export</h3>
@@ -527,11 +550,21 @@
 <a href="services.html#trade" class="block text-center bg-primary text-white px-3 md:px-6 py-1.5 md:py-2.5 rounded-xl hover:bg-luxury-gold hover:text-primary transition-colors font-bold text-xs md:text-sm">Learn More</a>
 </div>
 </div>
-<!-- Card 4 -->
+<!-- Card 4: Vehicle Hire -->
+<div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float group ring-2 ring-luxury-gold/40">
+<div class="h-24 md:h-40 relative overflow-hidden bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-luxury-gold text-4xl md:text-6xl">directions_car</span>
+</div>
+<div class="p-3 md:p-6">
+<h3 class="font-headline-md text-headline-md text-primary mb-1 md:mb-3 text-sm md:text-xl leading-snug">Vehicle Hire &amp; Transportation</h3>
+<p class="hidden md:block text-on-surface-variant text-sm mb-4">Self-drive, chauffeur, and corporate transport across Lagos.</p>
+<a href="index.html#fleet" class="block text-center bg-luxury-gold text-primary px-3 md:px-6 py-1.5 md:py-2.5 rounded-xl hover:bg-primary hover:text-white transition-colors font-bold text-xs md:text-sm">View Fleet</a>
+</div>
+</div>
+<!-- Card 5 -->
 <div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float group">
 <div class="h-24 md:h-40 relative overflow-hidden bg-primary flex items-center justify-center">
 <span class="material-symbols-outlined text-luxury-gold text-4xl md:text-6xl">apartment</span>
-<div class="absolute top-2 right-2 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-[10px] font-bold text-primary">04</div>
 </div>
 <div class="p-3 md:p-6">
 <h3 class="font-headline-md text-headline-md text-primary mb-1 md:mb-3 text-sm md:text-xl leading-snug">Apartment Leasing &amp; Airbnb</h3>
@@ -541,6 +574,66 @@
 </div>
 </div>
 </section>
+<!-- Fleet Section -->
+<section class="bg-surface-container py-16 md:py-section-gap" id="fleet">
+<div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row md:justify-between md:items-end gap-4 mb-8 md:mb-12 reveal">
+<div class="space-y-1 md:space-y-2">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Vehicle Hire</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Our Fleet</h2>
+<p class="text-secondary text-sm md:text-base max-w-lg">Self-drive or with a chauffeur — for business travel, events, airport runs, or day-to-day movement across Lagos.</p>
+</div>
+<a href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I'd%20like%20to%20book%20a%20vehicle." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-6 md:px-8 py-3 md:py-4 bg-primary text-white font-bold rounded-xl hover:bg-luxury-gold hover:text-primary transition-all text-sm md:text-base whitespace-nowrap">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+                        Book a Vehicle
+                    </a>
+</div>
+<!-- PLACEHOLDER: swap icon tiles for real fleet photos, and confirm/update the indicative rates below -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-gutter reveal-stagger">
+<div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<div class="h-36 md:h-44 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-luxury-gold text-5xl md:text-6xl">directions_car</span>
+</div>
+<div class="p-4 md:p-6">
+<h4 class="font-bold text-primary text-base md:text-lg mb-1">Saloon Cars</h4>
+<p class="text-on-surface-variant text-xs md:text-sm mb-3">Everyday city runs, airport pickups, and short business trips.</p>
+<p class="text-luxury-gold font-bold text-sm">From ₦25,000/day*</p>
+</div>
+</div>
+<div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<div class="h-36 md:h-44 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-luxury-gold text-5xl md:text-6xl">airport_shuttle</span>
+</div>
+<div class="p-4 md:p-6">
+<h4 class="font-bold text-primary text-base md:text-lg mb-1">SUVs</h4>
+<p class="text-on-surface-variant text-xs md:text-sm mb-3">Extra comfort and space for executive travel or family use.</p>
+<p class="text-luxury-gold font-bold text-sm">From ₦45,000/day*</p>
+</div>
+</div>
+<div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<div class="h-36 md:h-44 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-luxury-gold text-5xl md:text-6xl">airport_shuttle</span>
+</div>
+<div class="p-4 md:p-6">
+<h4 class="font-bold text-primary text-base md:text-lg mb-1">Buses &amp; Coasters</h4>
+<p class="text-on-surface-variant text-xs md:text-sm mb-3">Group travel, staff shuttles, church and event transport.</p>
+<p class="text-luxury-gold font-bold text-sm">From ₦80,000/day*</p>
+</div>
+</div>
+<div class="hover-lift bg-white rounded-2xl overflow-hidden deep-float">
+<div class="h-36 md:h-44 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-luxury-gold text-5xl md:text-6xl">local_shipping</span>
+</div>
+<div class="p-4 md:p-6">
+<h4 class="font-bold text-primary text-base md:text-lg mb-1">Trucks &amp; Vans</h4>
+<p class="text-on-surface-variant text-xs md:text-sm mb-3">Haulage-linked hire for cargo, house moves, and deliveries.</p>
+<p class="text-luxury-gold font-bold text-sm">Quote on request</p>
+</div>
+</div>
+</div>
+<p class="text-center text-xs text-secondary mt-6 reveal">*Indicative rates — final pricing confirmed at booking based on duration, distance, and whether a chauffeur is included.</p>
+</div>
+</section>
 <!-- Services Grid (sub-services) -->
 <section class="bg-primary text-white py-16 md:py-section-gap">
 <div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
@@ -548,7 +641,7 @@
 <div class="lg:sticky lg:top-32 h-fit space-y-4 md:space-y-6 reveal">
 <h2 class="font-headline-lg text-headline-lg text-luxury-gold">What Falls Under Each Pillar</h2>
 <p class="text-white/70 text-body-lg">
-                        A closer look at the day-to-day work behind our four core sectors.
+                        A closer look at the day-to-day work behind our five core sectors.
                     </p>
 <a href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I'm%20here%20to%20book%20a%20consultation." target="_blank" rel="noopener" class="inline-block px-6 md:px-8 py-3 md:py-4 bg-white text-primary font-bold rounded-xl hover:bg-luxury-gold hover:scale-105 transition-all text-sm md:text-base">Book a Consultation</a>
 </div>
@@ -583,6 +676,16 @@
 <h4 class="text-sm md:text-xl font-bold mb-1 md:mb-2">Freight &amp; Haulage</h4>
 <p class="text-white/60 text-xs md:text-base">Point-to-point transport for goods of any scale.</p>
 </div>
+<div class="hover-lift bg-white/5 p-4 md:p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-luxury-gold text-2xl md:text-4xl mb-2 md:mb-4">directions_car</span>
+<h4 class="text-sm md:text-xl font-bold mb-1 md:mb-2">Self-Drive &amp; Chauffeur Hire</h4>
+<p class="text-white/60 text-xs md:text-base">Daily, weekly, or long-term vehicle hire with an optional driver.</p>
+</div>
+<div class="hover-lift bg-white/5 p-4 md:p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors">
+<span class="material-symbols-outlined text-luxury-gold text-2xl md:text-4xl mb-2 md:mb-4">event</span>
+<h4 class="text-sm md:text-xl font-bold mb-1 md:mb-2">Corporate &amp; Event Transport</h4>
+<p class="text-white/60 text-xs md:text-base">Staff shuttles, airport transfers, and event-day logistics.</p>
+</div>
 </div>
 </div>
 </div>
@@ -597,7 +700,7 @@
 <span class="text-xl md:text-2xl font-bold text-primary">01</span>
 </div>
 <h4 class="text-lg md:text-xl font-bold text-primary">Tell Us What You Need</h4>
-<p class="text-on-surface-variant text-sm md:text-base">Reach out with your project, shipment, trade order, or apartment need.</p>
+<p class="text-on-surface-variant text-sm md:text-base">Reach out with your project, shipment, trade order, vehicle, or apartment need.</p>
 </div>
 <div class="space-y-4 md:space-y-6">
 <div class="w-16 h-16 md:w-20 md:h-20 bg-white shadow-xl rounded-full flex items-center justify-center mx-auto relative border-4 border-luxury-gold/20">
@@ -611,7 +714,7 @@
 <span class="text-xl md:text-2xl font-bold text-primary">03</span>
 </div>
 <h4 class="text-lg md:text-xl font-bold text-primary">We Deliver</h4>
-<p class="text-on-surface-variant text-sm md:text-base">Your project, shipment, trade, or stay — handled start to finish.</p>
+<p class="text-on-surface-variant text-sm md:text-base">Your project, shipment, trade, vehicle, or stay — handled start to finish.</p>
 </div>
 </div>
 <a href="book-service.html" class="reveal inline-flex items-center gap-2 mt-10 md:mt-16 bg-primary text-white px-8 py-4 rounded-xl font-bold hover:bg-luxury-gold hover:text-primary transition-all text-sm md:text-base">
@@ -710,222 +813,100 @@ Your browser does not support embedded video.
 <p class="p-3 md:p-4 font-bold text-primary text-sm">Export Documentation</p>
 </div>
 </div>
+</section>
+<!-- Service Areas -->
+<section class="py-16 md:py-section-gap px-4 md:px-margin-desktop max-w-container-max mx-auto" id="areas">
+<div class="text-center max-w-xl mx-auto mb-8 md:mb-12 reveal">
+<span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Where We Operate</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-2">Lagos Service Areas</h2>
+<p class="text-secondary text-sm md:text-base mt-3">Contracting, logistics, and vehicle hire across Lagos — with import/export and leasing support reaching beyond the state.</p>
+</div>
+<!-- PLACEHOLDER: confirm this list matches the areas DOSB'O actually covers before publishing -->
+<div class="flex flex-wrap justify-center gap-2 md:gap-3 reveal-stagger">
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Lekki</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Victoria Island</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Ikoyi</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Ikeja</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Surulere</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Yaba</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Ajah</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Lagos Island</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Lagos Mainland</span>
+<span class="area-chip bg-white border border-outline-variant/40 text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full hover:bg-primary hover:text-white">Apapa</span>
+<span class="area-chip bg-luxury-gold text-primary font-bold text-xs md:text-sm px-4 py-2 rounded-full">+ Nationwide (Logistics &amp; Trade)</span>
 </div>
 </section>
 <!-- Client Reviews -->
-<section class="py-16 md:py-section-gap" id="reviews">
-<div class="text-center max-w-xl mx-auto mb-10 md:mb-14 px-4 reveal">
+<section class="bg-surface-container py-16 md:py-section-gap" id="reviews">
+<div class="px-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center max-w-xl mx-auto mb-10 md:mb-14 reveal">
 <span class="text-luxury-gold font-bold tracking-widest uppercase font-label-lg text-label-lg">Client Reviews</span>
 <h2 class="font-headline-lg text-headline-lg text-primary mt-2">What Clients Say About Working With Us</h2>
-<p class="text-secondary text-sm md:text-base mt-3">Real feedback from contracting, logistics, trade, and leasing engagements.</p>
+<p class="text-secondary text-sm md:text-base mt-3">Real feedback from contracting, logistics, trade, vehicle hire, and leasing engagements.</p>
 </div>
 
-<div class="space-y-5 reveal">
-<!-- Row 1: scrolls left -->
-<div class="marquee-row">
-<div class="marquee-track">
-<!-- set A -->
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-gutter reveal-stagger">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"They managed our Airbnb unit in Lekki from furnishing to first guest. Bookings and cleaning have run smoothly since."</p>
 <p class="font-bold text-primary text-sm">Adaeze O. <span class="font-normal text-secondary">· Lekki, Lagos</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Renovated our office in Ikeja on schedule and kept us updated the whole way. No hidden costs at handover."</p>
 <p class="font-bold text-primary text-sm">Tunde B. <span class="font-normal text-secondary">· Ikeja, Lagos</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Our import paperwork used to take weeks. DOSB'O had the documentation customs-ready well ahead of arrival."</p>
 <p class="font-bold text-primary text-sm">Chiamaka N. <span class="font-normal text-secondary">· Abuja</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined text-lg text-outline-variant">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Haulage from Lagos to Port Harcourt arrived a day earlier than planned. Communication was direct throughout."</p>
 <p class="font-bold text-primary text-sm">Emeka U. <span class="font-normal text-secondary">· Port Harcourt</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Our short-let apartment in VI stays booked. They handle guest messages and turnover so we don't have to."</p>
 <p class="font-bold text-primary text-sm">Folake A. <span class="font-normal text-secondary">· Victoria Island, Lagos</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Sourced and cleared a full container order for us with no surprises at the port. Will use them again."</p>
 <p class="font-bold text-primary text-sm">Ibrahim S. <span class="font-normal text-secondary">· Kano</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Full renovation of our shop front in Surulere. The site team was tidy, punctual, and easy to reach."</p>
-<p class="font-bold text-primary text-sm">Ngozi E. <span class="font-normal text-secondary">· Surulere, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Booked an SUV with a driver for a week of client meetings. Clean vehicle, punctual, no back-and-forth."</p>
+<p class="font-bold text-primary text-sm">Grace N. <span class="font-normal text-secondary">· Ikoyi, Lagos</span></p>
+<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Vehicle Hire &amp; Transportation</p>
 </div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"We now run weekly deliveries through them across Ogun State. Same driver, same reliability every time."</p>
-<p class="font-bold text-primary text-sm">Chuka O. <span class="font-normal text-secondary">· Ogun State</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<!-- set A repeated for seamless loop -->
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"They managed our Airbnb unit in Lekki from furnishing to first guest. Bookings and cleaning have run smoothly since."</p>
-<p class="font-bold text-primary text-sm">Adaeze O. <span class="font-normal text-secondary">· Lekki, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Renovated our office in Ikeja on schedule and kept us updated the whole way. No hidden costs at handover."</p>
-<p class="font-bold text-primary text-sm">Tunde B. <span class="font-normal text-secondary">· Ikeja, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Our import paperwork used to take weeks. DOSB'O had the documentation customs-ready well ahead of arrival."</p>
-<p class="font-bold text-primary text-sm">Chiamaka N. <span class="font-normal text-secondary">· Abuja</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined text-lg text-outline-variant">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Haulage from Lagos to Port Harcourt arrived a day earlier than planned. Communication was direct throughout."</p>
-<p class="font-bold text-primary text-sm">Emeka U. <span class="font-normal text-secondary">· Port Harcourt</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Our short-let apartment in VI stays booked. They handle guest messages and turnover so we don't have to."</p>
-<p class="font-bold text-primary text-sm">Folake A. <span class="font-normal text-secondary">· Victoria Island, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Sourced and cleared a full container order for us with no surprises at the port. Will use them again."</p>
-<p class="font-bold text-primary text-sm">Ibrahim S. <span class="font-normal text-secondary">· Kano</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Full renovation of our shop front in Surulere. The site team was tidy, punctual, and easy to reach."</p>
-<p class="font-bold text-primary text-sm">Ngozi E. <span class="font-normal text-secondary">· Surulere, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
+<div class="hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
 <div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
 <p class="text-on-surface-variant text-sm leading-relaxed mb-4">"We now run weekly deliveries through them across Ogun State. Same driver, same reliability every time."</p>
 <p class="font-bold text-primary text-sm">Chuka O. <span class="font-normal text-secondary">· Ogun State</span></p>
 <p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
 </div>
 </div>
-</div>
-
-<!-- Row 2: scrolls right -->
-<div class="marquee-row">
-<div class="marquee-track marquee-reverse">
-<!-- set B -->
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Leased apartment in Abuja has been fully managed since day one — inspections, tenant queries, all of it."</p>
-<p class="font-bold text-primary text-sm">Amina Y. <span class="font-normal text-secondary">· Abuja</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined text-lg text-outline-variant">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Built out our warehouse extension in Ibadan. One change in scope mid-project, but they handled it fairly."</p>
-<p class="font-bold text-primary text-sm">Segun A. <span class="font-normal text-secondary">· Ibadan, Oyo</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Goods stored in their warehouse for three months with zero damage or missing inventory at pickup."</p>
-<p class="font-bold text-primary text-sm">Blessing I. <span class="font-normal text-secondary">· Ajah, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Export order for our fabrics was documented and shipped faster than our previous agent ever managed."</p>
-<p class="font-bold text-primary text-sm">David O. <span class="font-normal text-secondary">· Enugu</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"My Yaba flat gets cleaned and re-listed within hours of checkout. Guests keep leaving good reviews."</p>
-<p class="font-bold text-primary text-sm">Kemi F. <span class="font-normal text-secondary">· Yaba, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Interstate haulage from Kaduna to Lagos, twice a month, always on the agreed date. No excuses, ever."</p>
-<p class="font-bold text-primary text-sm">Musa T. <span class="font-normal text-secondary">· Kaduna</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Interior fit-out for our Ikoyi apartment finished ahead of the handover date we were quoted."</p>
-<p class="font-bold text-primary text-sm">Grace N. <span class="font-normal text-secondary">· Ikoyi, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-<!-- set B repeated for seamless loop -->
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Leased apartment in Abuja has been fully managed since day one — inspections, tenant queries, all of it."</p>
-<p class="font-bold text-primary text-sm">Amina Y. <span class="font-normal text-secondary">· Abuja</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined text-lg text-outline-variant">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Built out our warehouse extension in Ibadan. One change in scope mid-project, but they handled it fairly."</p>
-<p class="font-bold text-primary text-sm">Segun A. <span class="font-normal text-secondary">· Ibadan, Oyo</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Goods stored in their warehouse for three months with zero damage or missing inventory at pickup."</p>
-<p class="font-bold text-primary text-sm">Blessing I. <span class="font-normal text-secondary">· Ajah, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Export order for our fabrics was documented and shipped faster than our previous agent ever managed."</p>
-<p class="font-bold text-primary text-sm">David O. <span class="font-normal text-secondary">· Enugu</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Import &amp; Export</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"My Yaba flat gets cleaned and re-listed within hours of checkout. Guests keep leaving good reviews."</p>
-<p class="font-bold text-primary text-sm">Kemi F. <span class="font-normal text-secondary">· Yaba, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Apartment Leasing &amp; Airbnb</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Interstate haulage from Kaduna to Lagos, twice a month, always on the agreed date. No excuses, ever."</p>
-<p class="font-bold text-primary text-sm">Musa T. <span class="font-normal text-secondary">· Kaduna</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">Logistics</p>
-</div>
-<div class="review-card hover-lift bg-white p-5 rounded-2xl border border-outline-variant/30 deep-float" aria-hidden="true">
-<div class="flex gap-0.5 mb-3"><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span><span class="material-symbols-outlined star-fill text-lg">star</span></div>
-<p class="text-on-surface-variant text-sm leading-relaxed mb-4">"Interior fit-out for our Ikoyi apartment finished ahead of the handover date we were quoted."</p>
-<p class="font-bold text-primary text-sm">Grace N. <span class="font-normal text-secondary">· Ikoyi, Lagos</span></p>
-<p class="text-luxury-gold text-xs font-bold uppercase tracking-wide mt-1">General Contracting</p>
-</div>
-</div>
-</div>
+<p class="text-center text-xs text-secondary mt-6 reveal">Reviews shown are illustrative placeholders — swap in real client quotes when you have them, to keep this section fully genuine.</p>
 </div>
 </section>
 
 <!-- Special Offer / CTA -->
 <section class="relative py-20 md:py-32 overflow-hidden">
 <div class="absolute inset-0 z-0 bg-primary"></div>
+<div class="absolute top-0 left-0 w-full h-1 bg-luxury-gold/60 z-10"></div>
 <div class="relative z-10 px-4 md:px-margin-desktop max-w-3xl mx-auto text-center text-white space-y-6 md:space-y-8 reveal">
-<h2 class="font-display-lg text-display-lg md:text-display-lg text-headline-lg-mobile">Have A Project, Shipment, Or Apartment Need?</h2>
+<h2 class="font-display-lg text-display-lg md:text-display-lg text-headline-lg-mobile">Have A Project, Shipment, Vehicle, Or Apartment Need?</h2>
 <p class="text-white/80 font-body-lg text-body-lg">
-                Tell us what you need — contracting, freight, trade, or a place to stay — and we'll get back to you directly.
+                Tell us what you need — contracting, freight, trade, a vehicle, or a place to stay — and we'll get back to you directly.
             </p>
 <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
 <a href="book-service.html" class="bg-luxury-gold text-primary px-8 md:px-10 py-3 md:py-4 rounded-xl font-bold hover:scale-105 transition-all text-sm md:text-base">Book A Service</a>
@@ -961,6 +942,15 @@ Your browser does not support embedded video.
 </details>
 <details class="group bg-white rounded-2xl border border-outline-variant/30">
 <summary class="flex justify-between items-center p-4 md:p-6 cursor-pointer font-bold text-primary list-none text-sm md:text-base gap-3">
+                        Can I hire a vehicle with a driver, or self-drive only?
+                        <span class="material-symbols-outlined group-open:rotate-180 transition-transform shrink-0">expand_more</span>
+</summary>
+<div class="px-4 md:px-6 pb-4 md:pb-6 text-on-surface-variant text-sm md:text-base">
+                        Both. Most bookings come with a chauffeur, but self-drive hire is available for qualifying clients on request.
+                    </div>
+</details>
+<details class="group bg-white rounded-2xl border border-outline-variant/30">
+<summary class="flex justify-between items-center p-4 md:p-6 cursor-pointer font-bold text-primary list-none text-sm md:text-base gap-3">
                         How do you manage Airbnb and leased apartments?
                         <span class="material-symbols-outlined group-open:rotate-180 transition-transform shrink-0">expand_more</span>
 </summary>
@@ -977,7 +967,7 @@ Your browser does not support embedded video.
 <div class="bg-white rounded-3xl overflow-hidden deep-float flex flex-col lg:flex-row reveal">
 <div class="lg:w-1/2 p-6 md:p-12 space-y-6 md:space-y-8">
 <h2 class="font-headline-lg text-headline-lg text-primary">Get in Touch</h2>
-<p class="text-secondary text-sm md:text-base">Have a specific project, shipment, or apartment enquiry? Reach us directly — no call centers.</p>
+<p class="text-secondary text-sm md:text-base">Have a specific project, shipment, vehicle, or apartment enquiry? Reach us directly — no call centers.</p>
 <div class="space-y-4 md:space-y-6">
 <div class="flex items-center gap-4">
 <div class="w-11 h-11 md:w-12 md:h-12 bg-primary text-white rounded-full flex items-center justify-center shrink-0">
@@ -1035,7 +1025,7 @@ Your browser does not support embedded video.
 <img src="logo.jpg" alt="DOSB'O Synergy Limited logo" class="w-8 h-8 rounded-lg object-cover border border-white/20"/>
 <span class="font-display-lg text-headline-md text-tertiary-fixed font-bold tracking-tight">DOSB'O SYNERGY</span>
 </div>
-<p class="text-on-primary-fixed-variant font-body-md text-body-md opacity-80 text-sm">General Contracting · Logistics · Import &amp; Export · Apartment Leasing &amp; Airbnb. RN: 6992198.</p>
+<p class="text-on-primary-fixed-variant font-body-md text-body-md opacity-80 text-sm">General Contracting · Logistics · Import &amp; Export · Vehicle Hire · Apartment Leasing &amp; Airbnb. RN: 6992198.</p>
 <div class="flex gap-4">
 <a href="https://wa.me/2348033512511?text=Hi%20DOSB'O%20Synergy%2C%20I'd%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener" class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-luxury-gold hover:text-primary transition-all"><span class="material-symbols-outlined text-[18px]">chat</span></a>
 <a href="https://www.facebook.com/profile.php?id=61591086645364" target="_blank" rel="noopener" aria-label="Facebook" class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-luxury-gold hover:text-primary transition-all"><svg viewBox="0 0 320 512" fill="currentColor" class="w-[16px] h-[16px]"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
@@ -1050,6 +1040,7 @@ Your browser does not support embedded video.
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="services.html#contracting">General Contracting</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="services.html#logistics">Logistics</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="services.html#trade">Import &amp; Export</a>
+<a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="index.html#fleet">Vehicle Hire &amp; Transportation</a>
 <a class="text-on-primary-fixed-variant hover:text-tertiary-fixed-dim transition-colors font-label-sm text-sm" href="services.html#leasing">Apartment Leasing &amp; Airbnb</a>
 </nav>
 </div>
